@@ -34,8 +34,8 @@ This project builds a machine learning pipeline to predict customer churn based 
    ```
 
 3. Access:
-   - Streamlit app: http://43.204.115.119:8501
-   - FastAPI docs: http://43.204.115.119:8000/docs
+   - Streamlit app: http://52.66.185.212:8501
+   - FastAPI docs: http://52.66.185.212:8000/docs
 
 ## Authors
 
