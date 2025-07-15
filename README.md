@@ -37,6 +37,13 @@ This project builds a machine learning pipeline to predict customer churn based 
    - Streamlit app: http://52.66.185.212:8501
    - FastAPI docs: http://52.66.185.212:8000/docs
 
+## Sample Input CSV
+
+    You can download the sample input file to test the application:
+
+    [Download sample_input.csv](https://github.com/Misty033/Credit_Card_Churn_Detection/blob/main/file.csv)
+
+
 ## Authors
 
 - Misty Roy  
