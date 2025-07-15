@@ -1,2 +1,7 @@
 Streamlit UI in the browser at http://localhost:8501
 FastAPI backend at http://localhost:8000
+
+
+Local URL: http://localhost:8501
+Network URL: http://172.31.7.52:8501
+External URL: http://3.110.103.69:8501
