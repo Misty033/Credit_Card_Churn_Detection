@@ -4,13 +4,14 @@ services:
   fastapi:
     build:
       context: .
-      dockerfile: Dockerfile.fastapi
+      dockerfile: dockerfile.fastapi
     container_name: fastapi_service
     command: uvicorn app.main:app --host 0.0.0.0 --port 8000
     ports:
       - "8000:8000"
     volumes:
       - .:/app
+    working_dir: /app
     restart: always
     networks:
       - app-network
@@ -18,13 +19,14 @@ services:
   streamlit:
     build:
       context: .
-      dockerfile: Dockerfile.streamlit
+      dockerfile: dockerfile.streamlit
     container_name: streamlit_service
     command: streamlit run streamlit_app/app.py --server.port 8501 --server.address 0.0.0.0
     ports:
       - "8501:8501"
     volumes:
       - .:/app
+    working_dir: /app
     restart: always
     depends_on:
       - fastapi
@@ -34,4 +36,5 @@ services:
 networks:
   app-network:
     driver: bridge
+
 
