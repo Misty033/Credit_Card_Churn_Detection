@@ -16,3 +16,6 @@ Thumbs.db
 
 # Never track private key files
 *.pem
+
+#url
+url.txt
