@@ -56,6 +56,9 @@ You can download the sample input file to test the application:
 [Download sample_input.csv](https://github.com/Misty033/Credit_Card_Churn_Detection/blob/main/file.csv)  
 [Download sample_input.csv](https://github.com/Misty033/Credit_Card_Churn_Detection/blob/main/file2.csv)
 
+## Model Explainability
+![lime](results/image.png)
+
 ## Authors
 
 - Misty Roy  
