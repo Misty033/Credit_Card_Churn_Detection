@@ -1,4 +1,8 @@
 # Credit Card Churn Detection
+The application is deployed on **Google Cloud Run** using Docker images from Docker Hub.  
+Access the live application here:  
+
+🔗 **[Credit Card Churn Prediction App](https://churn-api-frontend-1018442469746.europe-west1.run.app/)**  
 
 This project builds a machine learning pipeline to predict customer churn based on credit card usage patterns. It includes model training, evaluation, and a deployed application with both FastAPI and Streamlit interfaces. The solution is fully containerized using Docker and deployable on **GCP Cloud Run** using Docker images from Docker Hub.
 
@@ -42,13 +46,6 @@ The dataset used for this project is publicly available on Kaggle:
 
 - Streamlit app: [http://localhost:8501](http://localhost:8501)  
 - FastAPI docs: [http://localhost:8000/docs](http://localhost:8000/docs)  
-
-## Deployment
-
-The application is deployed on **Google Cloud Run** using Docker images from Docker Hub.  
-Access the live application here:  
-
-🔗 **[Credit Card Churn Prediction App](https://churn-api-frontend-1018442469746.europe-west1.run.app/)**  
 
 ## Sample Input CSV
 
