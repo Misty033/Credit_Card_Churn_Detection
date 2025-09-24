@@ -1,6 +1,0 @@
-,CLIENTNUM,Customer Age,Gender,Dependent count,Education Level,Marital Status,Income Category,Card Category,Months on book,Total Relationship Count,Months Inactive 12 mon,Contacts Count 12 mon,Credit Limit,Total Revolving Bal,Avg Open To Buy,Total Amt Chng Q4 Q1,Total Trans Amt,Total Trans Ct,Total Ct Chng Q4 Q1,Avg Utilization Ratio
-0,100001,64,M,2,Uneducated,Divorced,$40K - $60K,Platinum,42,5,3,0,5071.37,2014,9902.51,0.33,2471,35,0.87,0.62
-1,100002,45,F,1,Uneducated,Divorced,Less than $40K,Silver,28,5,0,3,15963.46,1166,4732.96,2.77,2445,51,1.54,0.14
-2,100003,52,M,0,Graduate,Married,$120K +,Silver,14,5,4,1,18463.69,480,13387.71,1.24,4270,81,0.57,0.87
-3,100004,34,F,1,Doctorate,Married,$80K - $120K,Silver,17,5,3,3,4836.7,1981,2208.97,2.95,4614,110,1.15,0.64
-4,100005,49,M,0,Post-Graduate,Single,$40K - $60K,Blue,27,2,2,3,11062.11,344,575.41,2.22,4023,121,1.6,0.95
