@@ -58,6 +58,7 @@ You can download the sample input file to test the application:
 
 ## Model Explainability
 ![lime](results/image.png)
+![shap](results/image(1).png)
 
 ## Authors
 
