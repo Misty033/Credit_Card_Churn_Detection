@@ -14,6 +14,13 @@ services:
     restart: always
     networks:
       - app-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
 
   streamlit:
     build:
@@ -28,7 +35,8 @@ services:
     working_dir: /app
     restart: always
     depends_on:
-      - fastapi
+      fastapi:
+        condition: service_healthy
     networks:
       - app-network
 

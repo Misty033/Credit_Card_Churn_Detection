@@ -1,3 +1,7 @@
+.git/
+.gitignore
+
+
 __pycache__/
 *.pyc
 *.pyo
@@ -5,3 +9,10 @@ __pycache__/
 *.DS_Store
 *.git
 *.ipynb_checkpoints
+training/
+file.csv
+.venv
+pyproject.toml
+.env
+python-version
+initial_pipeline/

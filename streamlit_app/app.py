@@ -23,12 +23,10 @@ if uploaded_file is not None:
             with st.spinner("Sending file to the prediction API and awaiting results..."):
                 # Define the files payload for the POST request
                 files = {"file": (uploaded_file.name, uploaded_file.getvalue(), "text/csv")}
-                # response = requests.post(BACKEND_URL, files=files)
+                BACKEND_URL = os.environ.get("BACKEND_URL", "http://fastapi:8000/api/predict_csv")
+                response = requests.post(BACKEND_URL, files=files, timeout=60)
                 
-                response = requests.post(
-                    "http://fastapi:8000/api/predict_csv", 
-                    files=files
-                )
+                
 
 
             # --- Process the Response ---
