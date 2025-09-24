@@ -1,0 +1,24 @@
+# Ignore Python virtual environments
+.venv/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Never track private key files
+*.pem
+
+url.txt
+training
+uv.lock
+pyproject.toml
+initial_pipeline
