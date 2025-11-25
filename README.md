@@ -1,4 +1,4 @@
-# Credit Card Churn Detection
+# XChurn - Credit Card Churn Detection with Explainable AI
 The application is deployed on **Google Cloud Run** using Docker images from Docker Hub.  
 Access the live application here:  
 
